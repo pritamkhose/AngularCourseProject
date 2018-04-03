@@ -9,9 +9,9 @@ import {Recipe} from '../recipe.model';
 export class RecipesListComponent implements OnInit {
 
   recipes: Recipe [] = [
-    new Recipe('A Test Recipe', 'A Test Recipe description', 'file:///E:/Code/Java/AngularCLI/CourseProject/src/assets/img/a.jpg' )
-    // new Recipe('B Test Recipe', 'B Test Recipe description', 'file:///E:/Code/Java/AngularCLI/CourseProject/src/assets/img/b.jpg' ),
-    // new Recipe('C Test Recipe', 'C Test Recipe description', 'file:///E:/Code/Java/AngularCLI/CourseProject/src/assets/img/c.jpg' ),
+    new Recipe('A Test Recipe', 'A Test Recipe description', 'https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--1074500_11.jpg' ),
+    new Recipe('B Test Recipe', 'B Test Recipe description', 'https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--1074500_11.jpg' ),
+    new Recipe('C Test Recipe', 'C Test Recipe description', 'https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--1074500_11.jpg' )
   ];
 
   constructor() {
